@@ -4,7 +4,8 @@ body{
     padding: 0%;
     background-color:black;
     font-family: 'Prociono', serif;
-    color:white
+    color:white;
+    
   }
   
   .topnav {
@@ -45,15 +46,17 @@ body{
  
   #welcome-section{
     margin-top: 2.5%;
-    height: 850px;
+    height: 750px;
     display: flex;
     justify-content: center;
     align-items:center;
     text-align: center;
     color:white;
     z-index: -10;
-     background-color: #000000;
-     background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+    
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+     /* background-color: #000000;
+     background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png"); */
     
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     /* background-color: #0d001f;
@@ -68,12 +71,25 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
       z-index: 10;
       text-align: center;
       margin-top: 2.5%;
-      opacity: 10%;
+      opacity: 15%;
       width: 100vw;
       position: absolute;
     }
     .full-stack-dev{
       z-index: 20;
+      height: 10%;
+      vertical-align: 5%;
+      line-height: 4%;
+      margin-top: -18%;
+      padding: 0% 1% ;
+      border: solid rgb(207, 202, 202) 1px;
+      background-color: rgb(0, 0, 0, .5);
+    }
+    .chevron{
+      position: absolute;
+      margin-right: 5%;
+      z-index: 25;
+      /* background-color: black; */
     }
   
   h1 {
@@ -87,7 +103,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   
   
   #about{
-    height: 500px;
+    height: 650px;
    justify-content: center;
     align-items:center;
     text-align: center;
@@ -96,7 +112,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     
   }
   .about-me-pic{
-    width: 150px;
+    width: 250px;
     float:left;
     margin-left: 5%;
   }
