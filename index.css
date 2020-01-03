@@ -1,5 +1,7 @@
 /* Style the navigation menu */
 body{
+    margin:0;
+    padding: 0%;
     background-color:black;
     font-family: 'Prociono', serif;
     color:white
@@ -8,24 +10,23 @@ body{
   .topnav {
     overflow: hidden;
     position:fixed;
+    z-index: 25;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
   display:none
   }
-  
-  
   /* Style navigation menu links */
   .topnav a {
     float: left;
     color: white;
-    padding: 10px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     font-size: 17px;
   }
   
-  
+
   /* Style the hamburger menu */
   .topnav a.icon {
     display: block;
@@ -41,33 +42,39 @@ body{
   /*   background-color: black; */
     color: white;
   }
+ 
   #welcome-section{
+    margin-top: 2.5%;
     height: 850px;
     display: flex;
     justify-content: center;
     align-items:center;
     text-align: center;
     color:white;
-    /* background-color: #000000; */
-    /* background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png"); */
-    /* background-color: #000212; */
-    /* background-color: #005994; */
-    /* background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
-    This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    background-color: #0d001f;
-background-image: url("https://www.transparenttextures.com/patterns/flower-trail.png");
+    z-index: -10;
+     background-color: #000000;
+     background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+    
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* background-color: #0d001f;
+background-image: url("https://www.transparenttextures.com/patterns/flower-trail.png"); */
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   }
     /* https://www.transparenttextures.com/ 
     Lined Paper 2
   Made by Gjermund Gustavsen
     */
-    
-    #avatar{
-    border-radius: 50%;
-    width: 12.5%;
-    
-  }
+    .json-video{
+      z-index: 10;
+      text-align: center;
+      margin-top: 2.5%;
+      opacity: 10%;
+      width: 100vw;
+      position: absolute;
+    }
+    .full-stack-dev{
+      z-index: 20;
+    }
   
   h1 {
     font-size: 40px;
@@ -87,6 +94,11 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-color:grey;
     display:flex;
     
+  }
+  .about-me-pic{
+    width: 150px;
+    float:left;
+    margin-left: 5%;
   }
   #rails{
       width:60px;
@@ -136,8 +148,8 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     display:flex;
     flex-direction: row;
     min-height: 250px;
-    magin-left: 50px;
-    maring-bottom: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
   }
   
   .column {
@@ -168,7 +180,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     flex-direction: row;
     margin: 10px;
     min-height: 200px;
-    maring-bottom: 25px;
+    margin-bottom: 25px;
   }
   
   .column-1 {
