@@ -10,7 +10,6 @@ body{
   .topnav {
     overflow: hidden;
     position:fixed;
-    background-color: black;
     z-index: 25;
   }
   
