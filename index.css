@@ -14,6 +14,12 @@ body{
   .topnav #myLinks {
   display:none
   }
+  .json-video{
+    z-index: -1;
+    opacity: 25%;
+    width: 100vw;
+    position: absolute;
+  }
   
   
   /* Style navigation menu links */
@@ -53,9 +59,9 @@ body{
     /* background-color: #000212; */
     /* background-color: #005994; */
     /* background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
-    This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    background-color: #0d001f;
-background-image: url("https://www.transparenttextures.com/patterns/flower-trail.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* background-color: #0d001f;
+background-image: url("https://www.transparenttextures.com/patterns/flower-trail.png"); */
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   }
     /* https://www.transparenttextures.com/ 
