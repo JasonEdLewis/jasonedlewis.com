@@ -7,3 +7,13 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+function backUp() {
+    console.log("Back up!!")
+}
+
+function chevronUp(){
+ var p = document.getElementsById("chev-up")
+ if()
+
+}
