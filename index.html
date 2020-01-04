@@ -35,9 +35,12 @@ Load an icon library to show a hamburger menu (bars) on small screens
     </div>
     <!-- ⬆️ https://fontawesome.com/ -->
 
-
+    
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars" onclick="console.log(hello)"></i>
+    </a>
+    <a href="javascript:void(0);" class="chev-up" onclick="backUp()">
+        <i class="fas fa-chevron-up"></i>
     </a>
 </div>
 
@@ -49,9 +52,10 @@ Load an icon library to show a hamburger menu (bars) on small screens
 <section id="welcome-section">
 
     <div class="full-stack-dev">
-        <h1>Full Stack Developer</h1>
+        <p>Full Stack Developer</p>
     </div>
-    <div class="chevron"><span><a href="#about"><i class="fas fa-chevron-down fa-4x" style="color: white;"></i></a></span></div>
+    <div class="chevron"><span><a href="#about"><i class="fas fa-chevron-down fa-4x"
+                    style="color: white;"></i></a></span></div>
 
 </section>
 
