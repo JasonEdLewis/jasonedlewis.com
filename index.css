@@ -38,11 +38,11 @@ body{
   
 
   /* Style the hamburger menu */
-  .topnav a.icon {
+ .icon {
     display: block;
     position: fixed;
-    right: 0;
-    top: 0;
+    margin-left: 95vw;
+    margin-top: -5;
   }
   
   /* Add a grey background color on mouse-over */
@@ -112,31 +112,69 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     
     font-size: 30px
   }
-  
+
+  /* ABOUT */
+
+  .about-grid-container{
+    display: grid;
+    grid-template-rows: .5fr 4fr 4fr.5fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    margin: 0% 1%;
+   
+  }
+  .about-grid-container div{
+    border: 1px solid black;
+    gap: 1rem
+  }
   
   #about{
-    height: 100vh;
+    min-height: 85vh;
    justify-content: center;
     align-items:center;
     text-align: center;
-    background-color:grey;
+    background-color: #001538;
+    background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     display:flex;
+    padding: 1% 0%;
     
   }
+
+  .about-me{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    /* background-color: chartreuse; */
+   
+
+
+  }
+  .about-me p {
+    font-size: 1rem;
+  }
+
   .about-me-pic{
     width: 250px;
     float:left;
-    margin-left: 5%;
+    margin: 5%;
+  }
+  .about-me-blurb{
+    grid-row: 2/3;
+    grid-column: 2/5;
+   background-color: brown; 
   }
   #rails{
       width:60px;
       height: 60px;
   }
+
   .jason-lewis {
-    /* border: 1px solid red; */
-    justify-content: center;
-    height: 50px;
-    margin-top: 200px;
+ grid-column: 1/6;
+  }
+
+  .technologies{
+    grid-row:4/5;
+    grid-column: 1/6;
   }
   .personal-blurb p{
     height: auto;
@@ -152,25 +190,34 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   }
   
   .technologies{
-    display:flex;
-    height: 50px;
-    position:relative;
-  /*   border: 1px solid green; */
-   justify-content:center;
-    
-    padding: .5%;
     
   }
   #es6{
     width: 80px;
     height: 60px
   }
+
+  /* PROJECTS  */
+
   
   #projects {
-    height: 1000px;
+    min-height: auto;
     background-color:black;
     text-align:center
   }
+  .grid-container-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1rem;
+
+  }
+
+  .project-card{
+    border: 1px solid white;
+    border-spacing: 5%;
+    background-color: rgb(230, 227, 227);
+  }
+ 
   
   .row{
     display:flex;
@@ -187,7 +234,16 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     /* border: 1px solid red */
   }
   .project-desription{
-    font-size: 1rem
+    width: 37vw;
+    margin-left: 13%;
+    text-align: center;
+  
+    
+  }
+  .project-desription p{
+    font-size: 1.5rem;
+    color: black;
+    
   }
   .profile-links{
     display:flex

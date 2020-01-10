@@ -8,12 +8,3 @@ function myFunction() {
     }
 }
 
-function backUp() {
-    console.log("Back up!!")
-}
-
-function chevronUp(){
- var p = document.getElementsById("chev-up")
- if()
-
-}
