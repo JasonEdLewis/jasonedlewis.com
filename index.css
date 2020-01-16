@@ -10,7 +10,7 @@ body{
   
   .topnav {
     overflow: hidden;
-    position:fixed;
+    /* position:fixed; */
     width: 100%;
     z-index: 25;
     /* background-color: azure; */
@@ -40,7 +40,7 @@ body{
   /* Style the hamburger menu */
  .icon {
     display: block;
-    position: fixed;
+    position: relative;
     margin-left: 95vw;
     margin-top: -5;
   }
@@ -130,7 +130,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   
   #about{
     min-height: 85vh;
-   justify-content: center;
+    justify-items: center;
     align-items:center;
     text-align: center;
     background-color: #001538;
@@ -144,9 +144,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   .about-me{
     grid-row: 2/3;
     grid-column: 1/2;
-    /* background-color: chartreuse; */
-   
-
+    background-color: cornsilk;
 
   }
   .about-me p {
@@ -154,14 +152,31 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   }
 
   .about-me-pic{
-    width: 250px;
-    float:left;
-    margin: 5%;
+    width: 150px;
+    margin-top: 5%;  
   }
   .about-me-blurb{
-    grid-row: 2/3;
+    display: grid;
+    grid-row: 2/3; 
     grid-column: 2/5;
-   background-color: brown; 
+    text-align: center;
+    padding: 1%;
+   background-color: rgb(219, 108, 108); 
+  }
+  .technologies {
+    justify-items: center;
+    align-items: center;
+    vertical-align: 5%;
+    line-height: 5%;
+  }
+  .blogs{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 5/6;
+    color: white;
+  }
+  .blogs a {
+    color: white;
   }
   #rails{
       width:60px;
@@ -170,12 +185,9 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
 
   .jason-lewis {
  grid-column: 1/6;
+ text-align: center;
   }
 
-  .technologies{
-    grid-row:4/5;
-    grid-column: 1/6;
-  }
   .personal-blurb p{
     height: auto;
     width: 50%;
@@ -189,9 +201,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-color: white;
   }
   
-  .technologies{
-    
-  }
+  
   #es6{
     width: 80px;
     height: 60px
@@ -221,8 +231,8 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     border-spacing: 5%;
     background-color: rgb(230, 227, 227);
   }
- 
-  
+ /*  Blogs*/
+
   .row{
     display:flex;
     flex-direction: row;
