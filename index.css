@@ -162,6 +162,15 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     padding: 1%;
    background-color: rgb(219, 108, 108); 
   }
+  .blogs{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 5;
+    color: white;
+  }
+  .blogs a {
+    color: white;
+  }
   #rails{
       width:60px;
       height: 60px;
@@ -221,8 +230,13 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     border-spacing: 5%;
     background-color: rgb(230, 227, 227);
   }
- 
+ /*  Blogs*/
   
+ #content{
+   height: 500px;
+   width: 90vw;
+   background-color: bisque;
+ }
   .row{
     display:flex;
     flex-direction: row;
