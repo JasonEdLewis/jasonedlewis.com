@@ -130,7 +130,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   
   #about{
     min-height: 85vh;
-   justify-content: center;
+    justify-items: center;
     align-items:center;
     text-align: center;
     background-color: #001538;
@@ -156,16 +156,23 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     margin-top: 5%;  
   }
   .about-me-blurb{
-    grid-row: 2/3;
+    display: grid;
+    grid-row: 2/3; 
     grid-column: 2/5;
     text-align: center;
     padding: 1%;
    background-color: rgb(219, 108, 108); 
   }
+  .technologies {
+    justify-items: center;
+    align-items: center;
+    vertical-align: 5%;
+    line-height: 5%;
+  }
   .blogs{
     display: grid;
     grid-row: 2/3;
-    grid-column: 5;
+    grid-column: 5/6;
     color: white;
   }
   .blogs a {
@@ -181,10 +188,6 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
  text-align: center;
   }
 
-  .technologies{
-    grid-row:4/5;
-    grid-column: 1/6;
-  }
   .personal-blurb p{
     height: auto;
     width: 50%;
@@ -198,9 +201,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-color: white;
   }
   
-  .technologies{
-    
-  }
+  
   #es6{
     width: 80px;
     height: 60px
@@ -231,12 +232,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-color: rgb(230, 227, 227);
   }
  /*  Blogs*/
-  
- #content{
-   height: 500px;
-   width: 90vw;
-   background-color: bisque;
- }
+
   .row{
     display:flex;
     flex-direction: row;
