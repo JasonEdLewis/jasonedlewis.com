@@ -36,9 +36,6 @@ Load an icon library to show a hamburger menu (bars) on small screens
     <!-- ⬆️ https://fontawesome.com/ -->
 
     <div class="icon">
-        <a href="#welcome-section">
-            <i class="fas fa-chevron-up"></i>
-        </a>
         <a href="javascript:void(0);" onclick="myFunction()">
             <i class="fa fa-bars" onclick="console.log(hello)"></i>
         </a>
@@ -66,10 +63,18 @@ Load an icon library to show a hamburger menu (bars) on small screens
 
     <div class="about-grid-container">
         <div class="jason-lewis">
-            <h1>Hi. I am Jason Lewis</h1>
+            <h1>Hi. I am Jason</h1>
         </div>
         <div class="about-me">
             <img src="./img/jaywithbeard.JPG" class="about-me-pic" />
+            <div class="info-ul">
+
+                <p>Name: Jason Lewis</p>
+                <p>Location: White Plains, NY</p>
+                <p><strong>Education: </strong> Bachelors Degree</p>
+                <p>University: Rutgers</p>
+                <Aug.>Graduation Date: Aug. 2012</p>
+            </div>
         </div>
         <div class="about-me-blurb">
             <p>
@@ -109,7 +114,7 @@ Load an icon library to show a hamburger menu (bars) on small screens
         </div>
 
         <div class="blogs">
-            <p>Blogs</p>
+            <p class="blogs-title">Blogs</p>
             <a href="https://medium.com/@jasonedlewis/axios-all-with-rails-api-18991e1913ed" target="_blank"> Axios.all
                 with Rails
                 API</a>
@@ -123,6 +128,12 @@ Load an icon library to show a hamburger menu (bars) on small screens
                 Methods</a>
         </div>
     </div>
+    <div class="chevron-up">
+        <a href="#welcome-section">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </div>
+
 </section>
 
 <!-- PROJECTS -->
