@@ -196,8 +196,9 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
 
   
   #rails{
-      width:60px;
-      height: 60px;
+      width:57.5px;
+      height: 57.5px;
+      margin-bottom: -.5%;  
   }
 
   .jason-lewis {
