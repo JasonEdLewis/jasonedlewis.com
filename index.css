@@ -164,6 +164,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   .about-me-pic{
     width: 150px;
     margin-top: 5%;  
+    border: 1px rgb(158, 156, 156) solid;
   }
   .about-me-blurb{
     display: grid;
