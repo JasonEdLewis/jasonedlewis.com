@@ -182,6 +182,8 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
    padding: 5%;
    font-size: 1.5rem;
    border: 1px solid black;
+   word-spacing: 0.5rem;
+   font-style: normal;
   }
   .bio-info{
     color: rgb(26, 26, 78);
