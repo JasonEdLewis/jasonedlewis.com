@@ -130,6 +130,8 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   }
   .blogs-title{
     text-decoration: underline;
+    font-family:  'Prociono', serif;
+    font-size: 2rem;
   }
   .blogs a {
     text-decoration: none;
@@ -203,9 +205,9 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-color: grey;
    
   }
-  .blogs a {
-    color: white;
-    font-size: inherit;
+  
+  .medium-articles {
+   margin: -1%;
   }
 
   
@@ -231,6 +233,11 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     vertical-align: 80%;
     background-color: #001538;
     background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
+  }
+  .parenthesis{
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: bolder;
   }
 
   .personal-blurb p{
