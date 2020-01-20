@@ -387,11 +387,14 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   .footer-contact-info a{
     color: white;
   }
+  .footer-contact-info a:hover{
+    color:rgb(139, 139, 32)
+  }
   .contact-me-words a{
     color: white;
   }
   .footer-email a:hover {
-    color:black
+    color:rgb(139, 139, 32)
   }
   .copy-right{
     font-size: 1rem;
