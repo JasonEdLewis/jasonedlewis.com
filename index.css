@@ -207,11 +207,14 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-color: grey;
    
   }
+  a{
+    text-decoration: none;
+  }
   
   .medium-articles {
     display: grid;
     width: 83%;
-    margin-top: -100%;
+    margin-top: -80%;
     float: center;
     text-align: center;
     list-style-type: none;
@@ -240,7 +243,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     font-family: 'Prociono', serif;
     font-style: normal;
     color: white;
-    border: .05rem dashed silver;
+    border: .075rem solid rgb(0, 0, 0);
     height: 40%;
     vertical-align: 80%;
     background-color: #001538;
@@ -273,7 +276,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
 
   /* PROJECTS  */
   #jaystgram {
-    color:rgb(139, 6, 6)
+    color:rgb(82, 3, 3)
   }
   #abc-tutors{
     color:rgb(25, 25, 121)
@@ -319,7 +322,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     
   }
   .project-desription p{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: black;
     
   }
