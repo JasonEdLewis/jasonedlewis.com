@@ -149,7 +149,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     display:flex;
-    padding: 10% 1%;
+    padding: 5% 1%;
     
   }
 
