@@ -130,9 +130,13 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   }
   .blogs-title{
     text-decoration: underline;
+    font-family:  'Prociono', serif;
+    font-size: 2rem;
+    
   }
   .blogs a {
     text-decoration: none;
+    color: ivory;
     margin-top: -2.5%;
   }
   #about{
@@ -182,6 +186,8 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
    padding: 5%;
    font-size: 1.5rem;
    border: 1px solid black;
+   word-spacing: 0.5rem;
+   font-style: normal;
   }
   .bio-info{
     color: rgb(26, 26, 78);
@@ -201,9 +207,22 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     background-color: grey;
    
   }
-  .blogs a {
-    color: white;
-    font-size: inherit;
+  a{
+    text-decoration: none;
+  }
+  
+  .medium-articles {
+    display: grid;
+    width: 83%;
+    margin-top: -80%;
+    float: center;
+    text-align: center;
+    list-style-type: none;
+    
+  }
+ 
+  .blogs a:hover {
+    color: rgb(0, 60, 172);
   }
 
   
@@ -224,11 +243,16 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     font-family: 'Prociono', serif;
     font-style: normal;
     color: white;
-    border: .05rem dashed silver;
+    border: .075rem solid rgb(0, 0, 0);
     height: 40%;
     vertical-align: 80%;
     background-color: #001538;
     background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
+  }
+  .parenthesis{
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: bolder;
   }
 
   .personal-blurb p{
@@ -252,7 +276,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
 
   /* PROJECTS  */
   #jaystgram {
-    color:rgb(139, 6, 6)
+    color:rgb(82, 3, 3)
   }
   #abc-tutors{
     color:rgb(25, 25, 121)
@@ -298,7 +322,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     
   }
   .project-desription p{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: black;
     
   }
