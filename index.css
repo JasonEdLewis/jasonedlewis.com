@@ -132,9 +132,11 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     text-decoration: underline;
     font-family:  'Prociono', serif;
     font-size: 2rem;
+    
   }
   .blogs a {
     text-decoration: none;
+    color: ivory;
     margin-top: -2.5%;
   }
   #about{
@@ -207,7 +209,17 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   }
   
   .medium-articles {
-   margin: -1%;
+    display: grid;
+    width: 83%;
+    margin-top: -100%;
+    float: center;
+    text-align: center;
+    list-style-type: none;
+    
+  }
+ 
+  .blogs a:hover {
+    color: rgb(0, 60, 172);
   }
 
   
