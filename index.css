@@ -77,7 +77,7 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     Lined Paper 2
   Made by Gjermund Gustavsen
     */
-    .json-video{
+    .json-video-div{
       z-index: 10;
       text-align: center;
       margin-right: 50%;
@@ -86,6 +86,10 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
       height: 50vh;
       position: absolute;
      
+    }
+    .json-video{
+      width: 90vw;
+      height: 90vh;
     }
     .full-stack-dev{
       z-index: 20;
@@ -141,15 +145,17 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     margin-top: -2.5%;
   }
   #about{
-    min-height: 65vh;
+    display:flex;
+    padding: 5% 1%;
+    height: 90vh;
+   
     justify-items: center;
     align-items:center;
     text-align: center;
-    background-color: #001538;
-    background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    display:flex;
-    padding: 5% 1%;
+    background-color: #000617;
+background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+   
     
   }
 
@@ -186,15 +192,16 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   .about-me-blurb p {
    background-color: rgb(248, 244, 227);
    color:  rgb(26, 26, 78);
-   margin-top: -5%;
+   margin-top: 5%;
    padding: 5%;
-   font-size: 1.5rem;
+   font-size: 2rem;
    border: 1px solid black;
    word-spacing: 0.5rem;
    font-style: normal;
   }
-  .bio-info{
+  .bio-info p{
     color: rgb(26, 26, 78);
+    font-size: 1.5rem;
   }
   .technologies {
     justify-items: center;
@@ -218,10 +225,11 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
   .medium-articles {
     display: grid;
     width: 83%;
-    margin-top: -80%;
+    margin-top: -70%;
     float: center;
     text-align: center;
     list-style-type: none;
+    font-size: 1.5rem;
     
   }
  
@@ -240,39 +248,28 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
  grid-column: 1/6;
  grid-row: 1/2;
  text-align: center;
- margin-top: -2.5%;
+ margin-top: -8.5%;
+ font-size:3.5rem ;
+ 
  
   }
   .hi-im-jason{
     font-family: 'Prociono', serif;
     font-style: normal;
     color: white;
-    border: .075rem solid rgb(0, 0, 0);
+    border: .075rem solid rgb(70, 68, 68);
+    background-color:  #000617;
     height: 40%;
     vertical-align: 80%;
-    background-color: #001538;
-    background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
+    margin-bottom:5%;
+  
   }
   .parenthesis{
     font-family: serif;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bolder;
   }
-
-  .personal-blurb p{
-    height: auto;
-    width: 50%;
-    margin-left:25%;
-    padding: 2.5%;
-    margin-top: 0%;
-    font-size: 1.5rem;
-    font-style: normal;
-    color:black;
-    border: 1px solid black;
-    background-color: white;
-  }
-  
-  
+    
   #es6{
     width: 80px;
     height: 60px
@@ -286,9 +283,16 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     color:rgb(25, 25, 121)
   }
   #projects {
-    min-height: auto;
-    background-color:black;
-    text-align:center
+    min-height: 90vh;
+    background-color: #060f27;
+    background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    text-align:center;
+    padding-bottom: 5%;
+  }
+  .projects{
+    font-size: 5rem;
+    padding: 1%;
   }
   .grid-container-projects{
     display: grid;
@@ -318,15 +322,15 @@ background-image: url("https://www.transparenttextures.com/patterns/flower-trail
     flex:1;
     /* border: 1px solid red */
   }
-  .project-desription{
+  .project-description{
     width: 37vw;
     margin-left: 13%;
     text-align: center;
   
     
   }
-  .project-desription p{
-    font-size: 1.25rem;
+  .project-description p{
+    font-size: 1.75rem;
     color: black;
     
   }
