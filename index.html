@@ -45,8 +45,8 @@ Load an icon library to show a hamburger menu (bars) on small screens
 </div>
 
 <!-- WELCOME/HOME/TOP -->
-<div class="json-video">
-    <video src="./img/json.mp4" width="800px" autoplay loop muted>
+<div class="json-video-div">
+    <video src="./img/json.mp4" autoplay loop muted class="json-video">
     </video>
 </div>
 <section id="welcome-section">
@@ -63,9 +63,9 @@ Load an icon library to show a hamburger menu (bars) on small screens
 <section id="about">
 
     <div class="about-grid-container">
-        <!-- <div class="jason-lewis">
-            <h1>Hi. I am Jason, pronounced like ".json"</h1>
-        </div> -->
+        <div class="jason-lewis">
+            <p class="hi-im-jason">Hi. I am Jason, like .json<span class="parenthesis">( )</span></p>
+        </div>
         <div class="about-me">
             <img src="./img/jaywithbeard.JPG" class="about-me-pic" />
             <div class="bio-info">
@@ -75,7 +75,7 @@ Load an icon library to show a hamburger menu (bars) on small screens
                     <p><span style="color: #610e03; font-weight: bold;">Location: </span>White Plains, NY</p>
                     <p><span style="color: #610e03; font-weight: bold;">Education: </span>B.A. Biology</p>
                     <p><span style="color: #610e03; font-weight: bold;">University: </span> Rutgers</p>
-                    <p><span style="color: #610e03; font-weight: bold;">Graduation Date: </span> August 2012</p>
+                    <p><span style="color: #610e03; font-weight: bold;">Graduation: </span> August 2012</p>
                     <p><span style="color: #610e03; font-weight: bold;">Hobbies: </span>Filming/Editing video,reading
                         technical stuff, & sleeping. &nbsp;</p>
 
@@ -98,7 +98,7 @@ Load an icon library to show a hamburger menu (bars) on small screens
             </div>
         </div>
         <div class="about-me-blurb">
-            <h1 class="hi-im-jason">Hi. I am Jason, like .json<span class="parenthesis">( )</span></h1>
+
             <p>
                 Full stack web developer with experience in JavaScript and Ruby frameworks. My background in
                 math/science
@@ -109,9 +109,11 @@ Load an icon library to show a hamburger menu (bars) on small screens
                 services on behalf of companies.
                 </br>
                 </br>
-                <span style="font-size: 1rem;"><a
-                        href="mailto:jasonedlewis@gmail.com? subject= interest_in_hiring_you">📩</a></span>
-                | <span><a href='tel:914-334-1062'>📞</a></span> </p>
+                </br>
+                <span style="font-size: 1rem;"><a href="mailto:jasonedlewis@gmail.com? subject= interest_in_hiring_you"
+                        class="envelope"><i class="far fa-envelope fa-2x"></i></a></span>
+                | <span><a href='tel:914-334-1062' class="iphone"><i class="fas fa-mobile-alt fa-1x"></i></a></span>
+            </p>
             <div class="technologies">
                 <i class="fab fa-html5 fa-4x"></i>&nbsp
                 <i class="fab fa-react fa-4x"></i>&nbsp
@@ -120,12 +122,12 @@ Load an icon library to show a hamburger menu (bars) on small screens
                 <img src="./img/sql.png" style=" width: 10%; " />&nbsp &nbsp;
                 <i class="fab fa-js fa-4x"></i>&nbsp&nbsp&nbsp&nbsp
                 <img src="https://cdn.auth0.com/blog/rails-with-auth0/logo.png" id="rails" />&nbsp&nbsp
-                <img src="./img/node.png" style=" width: 11.5%; margin-bottom: -1.5%;" />
+                <img src="./img/node.png" style=" width: 8.5%; margin-bottom: -1.5%;" />
             </div>
         </div>
 
         <div class="blogs">
-            <p class="blogs-title"><a href="https://medium.com/@jasonedlewis/">Blogs</a></p>
+            <p class="blogs-title"><a href="https://medium.com/@jasonedlewis/">BLOG</a></p>
             <ul class="medium-articles">
                 <li><a href="https://medium.com/@jasonedlewis/axios-all-with-rails-api-18991e1913ed" target="_blank">
                         Axios.all
@@ -169,13 +171,13 @@ Load an icon library to show a hamburger menu (bars) on small screens
 
 <!-- PROJECTS -->
 <section id="projects">
-    <h1>Projects</h1>
+    <p class="projects">Projects</p>
     <div class="grid-container-projects">
 
         <div class="project-card">
             <h1 id="jaystgram">MyStagram
                 <h1>
-                    <div class="project-desription">
+                    <div class="project-description">
                         <p>This instagram clone was was built with <span style="color:rgb(82, 3, 3);">React.js</span>
                             and
                             custom
@@ -188,7 +190,9 @@ Load an icon library to show a hamburger menu (bars) on small screens
                             and all data was stored in and fetched from a <span
                                 style="color:rgb(82, 3, 3);">PostgreSQL</span>
                             data
-                            base via a <span style="color:rgb(82, 3, 3);">Ruby on Rails</span> API. This database
+                            base via the <span style="color:rgb(82, 3, 3);">Axios</span> http client <span
+                                style="color:rgb(82, 3, 3);">Ruby on Rails</span> API
+                            endpoints. This database
                             included a self-referential table, that joined the users in a <i> "follows" </i>
                             relationship.
                             Files
@@ -201,6 +205,7 @@ Load an icon library to show a hamburger menu (bars) on small screens
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
+                        <br />
                         <div>
                             <i class="fab fa-react fa-1x"></i>
                             <i class="fab fa-css3-alt fa-1x"></i>
@@ -219,7 +224,7 @@ Load an icon library to show a hamburger menu (bars) on small screens
         </div>
         <div class="project-card">
             <h1 id="abc-tutors">ABC Tutors<h1>
-                    <div class="project-desription">
+                    <div class="project-description">
                         <p>
                             This client build was specific for their assignment process. The Administrator is the
                             central model with <i>through</i> or direct relationships to the other models. Registration
@@ -229,7 +234,9 @@ Load an icon library to show a hamburger menu (bars) on small screens
                             and all data was stored in and fetched from a <span
                                 style="color:rgb(82, 3, 3);">PostgreSQL</span>
                             data
-                            base via a <span style="color:rgb(82, 3, 3);">Ruby on Rails</span> API
+                            base via the <span style="color:rgb(82, 3, 3);">Axios</span> http client <span
+                                style="color:rgb(82, 3, 3);">Ruby on Rails</span> API
+                            endpoints.
                         </p>
                         <div>
                             <iframe width="90%" height="422" src="https://www.youtube.com/embed/TSe71C1fOCk"
@@ -237,6 +244,7 @@ Load an icon library to show a hamburger menu (bars) on small screens
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
+                        <br />
                         <div>
                             <i class="fab fa-react fa-1x"></i>
                             <img src="./img/railsLogo.png" style=" width: 7.5%; margin-bottom: -1.5%;" />
