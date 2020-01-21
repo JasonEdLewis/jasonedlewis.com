@@ -343,6 +343,9 @@ background-image: url("https://www.transparenttextures.com/patterns/climpek.png"
       display:none
     }
   }
+  .iphone,.envelope{
+    color: rgb(82, 28, 28);
+  }
   #blog{
   /*   display:flex; */
     background-color: grey;
